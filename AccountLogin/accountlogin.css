@@ -1,0 +1,157 @@
+@font-face{
+    src: url(fonts/SansitaOne.ttf);
+    font-family: sansitaone;
+}
+
+@font-face{
+    src: url(fonts/Sintony-Bold.ttf);
+    font-family: sintonybold;
+}
+
+@font-face{
+    src: url(fonts/Sintony-Regular.ttf);
+    font-family: sintonyreg;
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #F6E7CB;
+    margin: 0px;
+}
+
+header{
+    background-color: #FFF8EB;
+    height: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  
+}
+
+.center-section img {
+    height: 200px; /* Adjust the height as per your design */
+}
+
+#main{
+    padding-top: 3em;
+}
+
+footer {
+    font-family: sintonyreg;
+    font-size: 0.8em;
+    color: #406731;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url('footerimg.png'); /* Set the grass image as the background */
+    background-size: contain; /* Ensure the background image covers the entire footer */
+    background-repeat: repeat-x; /* Repeat the image horizontally */
+    height: 50px;
+}
+
+.copyright{
+    color: #406731;
+}
+
+.flexparent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.flexleft{
+    font-family: sansitaone;
+    color: #bd614c;
+    display: flex;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 6em;
+    font-size: 2em;
+    max-width: 400px;
+    flex-direction: column;
+}
+
+.flexleft img{
+    height: 400px;
+    width: 400px;
+    display: flex;
+}
+
+.flexright{
+    display: flex;
+    background-color: #FFF5E2;
+    width: 50%;
+    padding:2em 2em;
+    max-width: 400px;
+    margin-top: 6em;
+    margin-right: 2em;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 1.3em;
+    color: #553B3B;
+    font-family: sansitaone;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+
+label{
+    font-family: sintonyreg;
+    color: #553B3B;
+    font-size: 0.8em;
+}
+
+input[type=text], input[type=password], input[type=number]{   
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 0px; 
+    box-sizing: border-box;   
+}  
+
+button{
+    border: 0px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    font-family: sansitaone;
+    color: #FFF8EB;
+    background-color: #678D58;
+    border-radius: 15px;
+    font-size: 1.5em;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(52, 51, 51, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a{
+    text-align: center;
+    color: #553B3B;
+    font-family: sintonyreg;
+    font-size: 0.8em;
+    padding-bottom: 1em;
+}

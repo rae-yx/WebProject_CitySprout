@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Citysprout</title>
+    <link rel = "stylesheet" href = "cart.css" type = "text/css">
+</head>
+<body>
+  <header>
+    <nav>
+
+      <div class="dropdown">
+          <img src="navbarimg/navbarlines.png" alt="Navigation Lines" onclick="toggleDropdown()">
+        <div class="dropdown-content" id="dropdownContent">
+          <a href="../HomePage/CSHomePage.html">HOME</a>
+          <a href="../About/about.html">ABOUT US</a>
+          <a href="../Resource/resource.php">RESOURCES</a>
+          <a href="../Market/market.php">MARKETPLACE</a>
+        </div>
+      </div>
+
+      <div class="center-section">
+        <img src="navbarimg/citysproutlogo.png" alt="Logo">
+      </div>
+
+      <div class="right-section">
+        <a href="../Cart/cart.html"><img src="navbarimg/cart.png" alt="Cart"></a>
+      </div>
+
+    </nav> 
+  </header>
+
+    <div class ="shoppingcart">
+      Shopping Cart
+    </div>
+<div class="parentcart">
+<div class="cart">
+  <div class="item">
+    <div class="item-info">
+      <img src="hose.png" alt="Item 1">
+      <div>
+        <p class="item-name">Gardening Hose (Yellow)</p>
+        <p class="item-price">RM8.80</p>
+      </div>
+    </div>
+    <div class="quantity">
+      <button class="decrease-btn">-</button>
+      <span class="quantity-value">1</span>
+      <button class="increase-btn">+</button>
+      <span class="delete-item">X</span>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="item-info">
+      <img src="wateringcan.png" alt="Item 2">
+      <div>
+        <p class="item-name">Watering Can</p>
+        <p class="item-price">RM15.50</p>
+      </div>
+    </div>
+    <div class="quantity">
+      <button class="decrease-btn">-</button>
+      <span class="quantity-value">1</span>
+      <button class="increase-btn">+</button>
+      <span class="delete-item">X</span>
+    </div>
+    
+  </div>
+  <p class="total-amount"></p>
+
+  <button class="checkout-btn" onclick="redirectToCheckout()">Checkout</button>
+
+</div>
+
+    <footer>
+      &copy; Citysprout 2023
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>

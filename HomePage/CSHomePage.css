@@ -1,0 +1,187 @@
+@font-face{
+    src: url(fonts/SansitaOne.ttf);
+    font-family: sansitaone;
+}
+
+@font-face{
+    src: url(fonts/Sintony-Bold.ttf);
+    font-family: sintonybold;
+}
+
+@font-face{
+    src: url(fonts/Sintony-Regular.ttf);
+    font-family: sintonyreg;
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #F6E7CB;
+    margin: 0px;
+}
+
+header{
+    background-color: #FFF8EB;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  
+}
+
+.dropdown img{
+    height: 40px; /* Adjust the height as per your design */
+    flex: 1;
+    text-align: center;
+    margin-right: 80px;
+    display: flex;
+}
+
+.right-section img {
+    height: 40px; /* Adjust the height as per your design */
+    flex: 1;
+    text-align: center;
+    margin-left: 80px;
+    display: flex;
+
+}
+.center-section img {
+    height: 200px; /* Adjust the height as per your design */
+}
+
+.flex1{
+    background-color: #A6C48A;
+    min-height: 300px;
+    padding-left: 20px;
+    display: flex;
+}
+
+#flex1left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: left;
+}
+
+#flex1right img{
+    display: flex;
+    height: 30em;
+    width: 30em;
+    align-items: right;
+}
+
+#top {
+    font-family: sansitaone;
+    font-size: 2.5em;
+    color: #406731;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+#bottom{
+    font-family: sintonyreg;
+    color: #406731;
+    display: flex;
+    padding-bottom: 1em;
+}
+
+#button{
+    font-family: sintonybold;
+    color: #406731;
+}
+
+button{
+    color:#A6C48A;
+    background-color: #406731;
+    font-family: sintonybold;
+    border: none;
+    font-size: 15px;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 30px;
+    text-align: center;
+}
+
+button:hover{
+    color: #406731;
+    background-color:#F6E7CB ;
+    box-shadow: 0 12px 16px 0 rgba(52, 51, 51, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.flex2{
+    font-family: sansitaone;
+    color: #678D58;
+    background-color: #F6E7CB;
+    min-height: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+#main{
+    padding-top: 3em;
+}
+
+footer {
+    font-family: sintonyreg;
+    font-size: 0.8em;
+    color: #406731;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url('footerimg.png'); /* Set the grass image as the background */
+    background-size: contain; /* Ensure the background image covers the entire footer */
+    background-repeat: repeat-x; /* Repeat the image horizontally */
+    height: 50px;
+}
+
+.copyright{
+    color: #406731;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F0E8DA; /* Set your dropdown background color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #678D58; /* Set your link text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: sintonyreg;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; /* Set your link hover background color */
+}
+
+.show {
+    display: block;
+}

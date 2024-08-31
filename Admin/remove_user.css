@@ -1,0 +1,139 @@
+@font-face {
+    src: url(fonts/SansitaOne.ttf);
+    font-family: sansitaone;
+}
+
+@font-face {
+    src: url(fonts/Sintony-Bold.ttf);
+    font-family: sintonybold;
+}
+
+@font-face {
+    src: url(fonts/Sintony-Regular.ttf);
+    font-family: sintonyreg;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #F6E7CB;
+    margin: 0px;
+}
+
+header {
+    background-color: #FFF8EB;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.dropdown img {
+    height: 40px;
+    flex: 1;
+    text-align: center;
+    margin-right: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+.right-section img {
+    height: 40px;
+    flex: 1;
+    text-align: center;
+    margin-left: 80px;
+    display: flex;
+}
+
+.center-section img {
+    height: 200px;
+}
+
+footer {
+    font-family: sintonyreg;
+    font-size: 0.8em;
+    color: #406731;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url('footerimg.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F0E8DA;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #678D58;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: sintonyreg;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+h1 {
+    font-family: sansitaone;
+    color: #406731;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #F6E7CB;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #678D58;
+    font-family: 'sintonyreg', sans-serif;
+}
+
+ul li a:hover {
+    color: #406731;
+}
+
+.usercontainer {
+    background-color: rgba(103, 141, 88, 0.5);
+    padding: 2em;
+    margin: 2em;
+    border-radius: 20px;
+}

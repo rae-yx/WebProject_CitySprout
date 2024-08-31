@@ -1,0 +1,234 @@
+@font-face{
+    src: url(fonts/SansitaOne.ttf);
+    font-family: sansitaone;
+}
+
+@font-face{
+    src: url(fonts/Sintony-Bold.ttf);
+    font-family: sintonybold;
+}
+
+@font-face{
+    src: url(fonts/Sintony-Regular.ttf);
+    font-family: sintonyreg;
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #F6E7CB;
+    margin: 0px;
+}
+
+header{
+    background-color: #FFF8EB;
+    height: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  
+}
+
+.dropdown img{
+    height: 40px; /* Adjust the height as per your design */
+    flex: 1;
+    text-align: center;
+    margin-right: 80px;
+    display: flex;
+}
+
+.right-section img {
+    height: 40px; /* Adjust the height as per your design */
+    flex: 1;
+    text-align: center;
+    margin-left: 80px;
+    display: flex;
+
+}
+.center-section img {
+    height: 200px; /* Adjust the height as per your design */
+}
+
+#main{
+    padding-top: 3em;
+}
+
+footer {
+    font-family: sintonyreg;
+    font-size: 0.8em;
+    color: #406731;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url('footerimg.png'); /* Set the grass image as the background */
+    background-size: contain; /* Ensure the background image covers the entire footer */
+    background-repeat: repeat-x; /* Repeat the image horizontally */
+    height: 50px;
+}
+
+.copyright{
+    color: #406731;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F0E8DA; /* Set your dropdown background color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #678D58; /* Set your link text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: sintonyreg;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; /* Set your link hover background color */
+}
+
+.show {
+    display: block;
+}
+
+#header-container {
+    display: flex;
+  }
+  
+.hero1 {
+    background-image: url(header.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.text1 {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    color: #553535;
+    margin-top: 170px;
+    font-family: SansitaOne;
+  }
+
+.searchbar {
+    width: 80%; 
+    height: 50px;
+    margin: auto; 
+    padding: 20px;
+    display: flex;
+}
+
+.searchbar input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    background-color: #FFF5E2;
+    border-radius: 10px;
+}
+
+.searchbar button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #678D58;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.image {
+    flex: 0 0 45%; /* Adjust the width of the images as needed */
+    margin: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image p {
+    margin-top: 10px;
+    text-align: center;
+    color: #645656;
+    font-family: sintonyreg;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#local-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+.local-heading {
+    font-size: 24px;
+    padding: 10px;
+    font-family: SansitaOne;
+    color: #553535;
+  }
+
+.rectangle-container {
+    display: flex;
+    flex-direction: column; /* Stacking rectangles vertically */
+    align-items: center; /* Centering horizontally */
+    padding-bottom: 100px;
+}
+
+.rectangle {
+    width: 800px; /* Adjust the width as needed */
+    margin: 10px; /* Adjust the margin between rectangles */
+    padding: 5px 25px;
+    text-align: left; /* Centering text horizontally */
+    background-color: #FFF5E2;
+    font-family: sintonyreg;
+    border-radius: 10px;
+}
+
+.rectangle p {
+    margin: 0;
+    padding: 2px;
+
+}
+
+.rectangle h2 {
+    font-size: 30px;
+}

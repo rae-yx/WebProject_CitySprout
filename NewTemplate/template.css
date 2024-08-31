@@ -1,0 +1,116 @@
+@font-face{
+    src: url(fonts/SansitaOne.ttf);
+    font-family: sansitaone;
+}
+
+@font-face{
+    src: url(fonts/Sintony-Bold.ttf);
+    font-family: sintonybold;
+}
+
+@font-face{
+    src: url(fonts/Sintony-Regular.ttf);
+    font-family: sintonyreg;
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #F6E7CB;
+    margin: 0px;
+}
+
+header{
+    background-color: #FFF8EB;
+    height: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  
+}
+
+.dropdown img{
+    height: 40px; /* Adjust the height as per your design */
+    flex: 1;
+    text-align: center;
+    margin-right: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+.right-section img {
+    height: 40px; /* Adjust the height as per your design */
+    flex: 1;
+    text-align: center;
+    margin-left: 80px;
+    display: flex;
+
+}
+.center-section img {
+    height: 200px; /* Adjust the height as per your design */
+}
+
+#main{
+    padding-top: 3em;
+}
+
+footer {
+    font-family: sintonyreg;
+    font-size: 0.8em;
+    color: #406731;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url('footerimg.png'); /* Set the grass image as the background */
+    background-size: contain; /* Ensure the background image covers the entire footer */
+    background-repeat: repeat-x; /* Repeat the image horizontally */
+    height: 50px;
+}
+
+.copyright{
+    color: #406731;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F0E8DA; /* Set your dropdown background color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #678D58; /* Set your link text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: sintonyreg;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; /* Set your link hover background color */
+}
+
+.show {
+    display: block;
+}
